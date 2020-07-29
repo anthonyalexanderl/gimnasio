@@ -1,0 +1,50 @@
+
+body {
+  background: #456;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.login {
+  width: 400px;
+  margin: 16px auto;
+  font-size: 16px;
+}
+
+
+.titleregistro{
+
+	color: aliceblue; 
+	background-color: cadetblue; 
+	text-align: center;
+	border: solid white 1px;
+	margin: 12px;
+}
+
+.etiquetaformulario{
+
+	color: aliceblue;
+	padding: 8px;
+
+	
+}
+
+.login p {
+  padding: 12px;
+
+}
+
+.login input {
+
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+  margin: 5px;
+  
+}
+

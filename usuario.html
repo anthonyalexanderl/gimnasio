@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Gimnasio TONY</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Chivo:400,900" rel="stylesheet" />
+<link href="miestilo.css" rel="stylesheet" type="text/css" media="all" />
+<link href="formulario.css" rel="stylesheet" type="text/css" media="all" />
+
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+
+</head>
+<body>
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<img src="images/logo.png" > </img> 
+			<div id="logo">
+				<h1><a href="#">Mi perfil</a></h1>
+				<p>Esta información solo podrá ser visualizada por el usuario</p>
+				
+			</div>
+		</div>
+	</div>
+	
+	<nav id="menu-wrapper">
+		<div id="menu" class="container">
+			<ul>
+				
+				<li ><a href="index.html">Inicio <img src="images/home.png" width="25px" height="25px"> </a></li>
+				<li><a href="#">¿Quiénes Somos?</a> </li>
+				<li><a href="#">Categoria</a></li>
+				<li><a href="#">Galería</a></li>
+			
+			</ul>
+		</div>
+	
+	</nav>
+
+
+</div>
+
+
+<div class="login">
+    <div class="login-screen">
+        <div class="app-title">
+            <img src="images/usercolor.png" width="100px" height="100px" >
+    
+            <h1 class="titleregistro">Datos del Usuario</h1>
+            
+        </div>
+
+        <form class="login-form">
+           
+			<h2 class="titleregistro" style="background-color: transparent; "><strong>Nombre:</strong> Anthony Alexander</h2>
+            <h2 class="titleregistro" style="background-color: transparent;"><strong>Apellidos:</strong> Lopez  Lopez</h2>
+            <h2 class="titleregistro" style="background-color: transparent; "><strong>Email:</strong> anthonyalexander@ejemplo.com</h2>
+			<h2 class="titleregistro" style="background-color: transparent;"><strong>Fecha de Ingreso:</strong> 20-01-2020</h2>
+			<h2 class="titleregistro" style="background-color: transparent; "><strong>Categoria:</strong> Tennis</h2>
+            <h2 class="titleregistro" style="background-color: transparent;"><strong>Apellidos:</strong> Lopez  Lopez</h2>
+			<h2 class="titleregistro" style="background-color: transparent;"><strong>Estado:</strong> Desactivado</h2>
+
+	
+            <br>
+            <a style="color: aliceblue;" href="#">Editar Aquí <img src="images/edit.png" width="20px" height="20px"></a>
+        </form>
+    </div>
+</div>
+
+
+
+
+<div id="footer-wrapper">
+	<div id="footer" class="container">
+		<div id="box1">
+			<div class="title">
+				<h2>Menu</h2>
+			</div>
+			<ul class="style1">
+				<li class="current_page_item"><a href="#">Inicio</a></li>
+				<li><a href="#">¿Quiénes Somos?</a> </li>
+				<li><a href="#">Categoria</a></li>
+				<li><a href="#">Galería</a></li>
+				<li><a href="#">Ingresar </a>  </li>
+			
+			</ul>
+		</div>
+		<div id="box2">
+			<div class="title">
+				<h2>Servicios Popular </h2>
+			</div>
+			<ul class="style1">
+				<li><a href="#">Basketball</a></li>
+				<li><a href="#">Tennis</a></li>
+				<li><a href="#">Boxeo</a></li>
+				<li><a href="#">Natación </a></li>
+				<li><a href="#">Sauna</a></li>
+			
+			</ul>
+		</div>
+		<div id="box3">
+			<div class="title">
+				<h2>Nuestras redes sociales</h2>
+			</div>
+			<p>Te recomendamos que estes pendiente de nuestras ofertas en nuestras redes sociales</p>
+			<ul class="contact">
+				<li><a href="#" class="icon icon-twitter"><span>Twitter</span></a></li>
+				<li><a href="#" class="icon icon-facebook"><span>Facebook</span></a></li>
+				<li><a href="#" class="icon icon-tumblr"><span>Tumblr</span></a></li>
+				<li><a href="#" class="icon icon-rss"><span>Pinterest</span></a></li>
+			</ul>
+			
+		</div>
+	</div>
+</div>
+<footer id="copyright" class="container">
+	<p>Todos los derechos Reservados. Diseñado por Anthony Lopez. Universidad Layca Eloy Alfaro de Manabí </p>
+</footer>
+
+
+<script>
+	
+
+		var usuario = null;
+		var clave = null;
+
+function login() {
+	usuario = document.getElementById("usuario").value;
+	clave = document.getElementById("clave").value;
+	
+	if ( (usuario = 'a')  &&  (password = 'a') ) {
+
+		
+		document.location= 'administracion.html'
+	}
+	 
+		else {
+		
+			alert("Datos Incorrectos")
+			}
+	}
+	</script>
+</body>
+</html>
